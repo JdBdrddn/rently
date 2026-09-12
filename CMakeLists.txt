@@ -3,4 +3,4 @@ project(rently)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(rently main.cpp Vehicle.cpp Vehicle.h)
+add_executable(rently main.cpp Vehicle.cpp Vehicle.h Renter.cpp Renter.h Rental.cpp Rental.h)

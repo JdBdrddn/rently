@@ -1,7 +1,6 @@
 //
 // Created by user on 9/11/2026.
 //
-#include <stdio.h>
 #include "Vehicle.h"
 
     int Vehicle::ID = 1000;
@@ -62,7 +61,7 @@
     * \brief    assigns a new ID each time its called.
     */
     int Vehicle::nextID(){
-      ID += 1;
+      ID = ++ID;
       return ID;
       }
 
